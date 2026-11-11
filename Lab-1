@@ -85,3 +85,6 @@ int main() {
     free(arr_par);
     return 0;
 }
+
+gcc -fopenmp lab3.c -o lab3
+./lab3.exe 
