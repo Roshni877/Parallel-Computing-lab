@@ -24,6 +24,10 @@ int main(int argc, char *argv[]) {
 }
 
 
+cd /d "C:\Users\smv\Desktop\4MW23CS122"
+cl lab5.c msmpi.lib
+mpiexec -n 2 lab5.exe
+
 
 output
 Process 1 received message: 0 Process 0 received message: 1 
