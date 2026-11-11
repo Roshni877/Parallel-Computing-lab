@@ -39,6 +39,12 @@ int main(int argc, char *argv[]) {
 }
 
 
+cd /d "C:\Users\smv\Desktop\4MW23CS122"
+cl lab5.c msmpi.lib
+mpiexec -n 2 lab5.exe
+
+
+
 Output:
 Process 0 is sending number 42 to Process 1
 Process 1 received number 42 from Process 0
