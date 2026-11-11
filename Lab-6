@@ -22,3 +22,8 @@ int main(int argc, char *argv[]) {
     MPI_Finalize();
     return 0;
 }
+
+
+
+output
+Process 1 received message: 0 Process 0 received message: 1 
