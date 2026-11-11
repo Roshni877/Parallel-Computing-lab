@@ -26,6 +26,14 @@ int main(int argc, char** argv) {
 }
 
 
+
+cd /d "C:\Users\smv\Desktop\4MW23CS122"
+cl lab5.c msmpi.lib
+mpiexec -n 2 lab5.exe
+
+
+
+
 Output
 Allreduce PROD (rank 2): 24
 Allreduce MAX  (rank 2): 4
