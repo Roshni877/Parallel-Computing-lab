@@ -48,3 +48,19 @@ int main() {
 
     return 0;
 }
+
+
+gcc -Wall -Wextra -std=c11 -fopenmp -mconsole .\lab4.c -o .\lab4.exe -lm
+gcc -fopenmp lab4.c -o lab4                                             
+./lab4.exe 
+
+Output:
+Enter the upper limit (n) to find prime numbers: 20000
+
+Finding prime numbers from 1 to 20000...
+
+Sequential: Found 2262 primes in 0.001000 seconds
+Parallel:   Found 2262 primes in 0.027000 seconds
+
+Speedup: 0.04x
+PS C:\Users\HP\Desktop\parallel> 
